@@ -85,6 +85,16 @@ nav a {
     border: 0;
 }
 
+select {
+    width: 180px;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+}
+
 .common-button {
     border-radius: 8px;
     background: #FF5400;
@@ -320,10 +330,12 @@ input[type="email"] {
     right: 10%;
     transform: rotate(-45deg);
 }
-.footer{
+
+.footer {
     background: rgba(19, 19, 24, 0.05);
     padding-bottom: 50px;
 }
+
 .footer-main {
     padding: 100px 330px 0px;
     display: flex;
@@ -349,11 +361,13 @@ footer .icons {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.footer h3{
+
+.footer h3 {
     text-align: center;
     margin-top: 20px;
 }
-.footer hr{
+
+.footer hr {
     width: 60%;
     margin: 0 auto;
     background: rgba(19, 19, 24, 0.10);
