@@ -42,7 +42,7 @@ nav a {
     margin-top: 50px;
     width: 1000px;
     height: 500px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Group\ 13\ \(1\)\ \(1\).png');
     ;
     background-repeat: no-repeat;
     border-radius: 16px;
@@ -122,9 +122,26 @@ select {
 .popular .p-text {
     width: 50%;
 }
+.p-text{
+    padding: 0 20px;
+}
+.p-text .list-div {
+    margin-left: 30px;
+}
 
 .popular .p-img {
     width: 50%;
+}
+.list-div {
+    line-height: 30px;
+}
+.pab{
+    margin-top: 20px;
+}
+.popular-des, .list-div {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 .popular .p-img img {
