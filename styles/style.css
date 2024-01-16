@@ -122,9 +122,11 @@ select {
 .popular .p-text {
     width: 50%;
 }
-.p-text{
+
+.p-text {
     padding: 0 20px;
 }
+
 .p-text .list-div {
     margin-left: 30px;
 }
@@ -132,13 +134,17 @@ select {
 .popular .p-img {
     width: 50%;
 }
+
 .list-div {
     line-height: 30px;
 }
-.pab{
+
+.pab {
     margin-top: 20px;
 }
-.popular-des, .list-div {
+
+.popular-des,
+.list-div {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     margin-top: 20px;
@@ -388,4 +394,80 @@ footer .icons {
     width: 60%;
     margin: 0 auto;
     background: rgba(19, 19, 24, 0.10);
+}
+
+/* .hide {
+    display: none;
+} */
+.secret {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .popular,
+    .icon-des>ul,
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .secret {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .popular .p-text,
+    .popular .p-img,
+    .banner,
+    .destination {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .form-part,
+    .form-img {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .form-img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .option-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    select,
+    .option-div input {
+        margin-bottom: 10px;
+    }
+
+    .nav-des {
+        margin: 30px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-main {
+        padding: 50px 20px 0px;
+    }
+
+    .banner {
+        margin-top: 5px;
+    }
 }
